@@ -9,7 +9,7 @@ public class FichaNave {
         System.out.println("Introduzca el nombre del piloto: ");
         String nombrePiloto = sc.next();
         System.out.println("Introduzca el rango del piloto: ");
-        char rangoPiloto = sc.next().charAt(0);
+        String rangoPiloto = sc.next();
         int nivelExperiencia;
         double combustibleActual;
         boolean sistemas;
@@ -17,5 +17,6 @@ public class FichaNave {
         final double CAPACIDAD_MAXIMA_LITROS = 2000.0;
         final double CONSUMO_POR_AÑO_LUZ = 180.5;
         
+        System.out.println(rangoPiloto.charAt(0));
     }
 }

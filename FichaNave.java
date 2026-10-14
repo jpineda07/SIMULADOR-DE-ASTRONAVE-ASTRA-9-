@@ -17,11 +17,13 @@ public class FichaNave {
         System.out.println("Sistemas listos?: ");
         boolean sistemas = true;
         
+        
         final double CAPACIDAD_MAXIMA_LITROS = 2000.0;
         final double CONSUMO_POR_AÑO_LUZ = 180.5;
         
-            
-        
+        nivelExperiencia ++;    
+        double añosLuz = combustibleActual * CONSUMO_POR_AÑO_LUZ;
+        double porcentaje = (combustibleActual/CAPACIDAD_MAXIMA_LITROS)*100;
 
     }
 }
